@@ -4,7 +4,7 @@
 
 #### 软件开发流程
 
-<img src="./java%E6%96%B0%E7%89%B9%E6%80%A7.assets/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B.png" alt="软件开发流程" style="zoom:50%;" />
+<img src="./java%E6%96%B0%E7%89%B9%E6%80%A7.assets/softwareDevelopmentProcess.png" alt="softwareDevelopmentProcess" style="zoom:50%;" />
 
 #### 常用的设计原则
 
@@ -64,7 +64,7 @@ public class Singleton {
 
 类图结构：
 
-<img src="./java%E6%96%B0%E7%89%B9%E6%80%A7.assets/image-20221106180035705.png" alt="image-20221106180035705" style="zoom: 80%;" />
+<img src="./java%E6%96%B0%E7%89%B9%E6%80%A7.assets/chouxiang.png" alt="chouxiang" style="zoom: 80%;" />
 
 ![图一](./java新特性.assets/图一-1667657176427-5.png)
 
@@ -215,7 +215,7 @@ sourceable.method();	//a很好 \n b也不错
 
 类图结构：
 
-<img src="./java新特性.assets/image-20221106174608534.png" alt="image-20221106174608534" style="zoom:50%;" />
+<img src="./java%E6%96%B0%E7%89%B9%E6%80%A7.assets/iamgesss.png" alt="iamgesss" style="zoom: 80%;" />
 
 ```java
 public class Proxy implements Sourceable{
@@ -245,7 +245,7 @@ public class Proxy implements Sourceable{
 
 类图结构：
 
-<img src="./java%E6%96%B0%E7%89%B9%E6%80%A7.assets/image-20221106183029480.png" alt="image-20221106183029480" style="zoom:67%;" />
+<img src="./java%E6%96%B0%E7%89%B9%E6%80%A7.assets/asdfs.png" alt="asdfs" style="zoom:80%;" />
 
 ```java
 public abstract class AbstractCalculator {
