@@ -4,7 +4,7 @@
 
 #### 软件开发流程
 
-<img src="./java新特性.assets/软件开发流程.png" alt="软件开发流程" style="zoom: 50%;" />
+<img src="./java%E6%96%B0%E7%89%B9%E6%80%A7.assets/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B.png" alt="软件开发流程" style="zoom:50%;" />
 
 #### 常用的设计原则
 
