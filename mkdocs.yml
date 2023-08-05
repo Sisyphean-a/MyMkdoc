@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: 西西弗的Java笔记
 theme:
   name: material
   language: en
@@ -15,10 +15,10 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
-  - codehilite:    # 代码高亮，显示行号
+  - codehilite: # 代码高亮，显示行号
       guess_lang: false
       linenums: true
-      
+
   # Python Markdown Extensions
   - pymdownx.arithmatex:
       generic: true
