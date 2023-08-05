@@ -185,7 +185,7 @@ java.io.File类主要用于描述文件或目录路径的抽象表示信息，�
 
 #### 常用的方法
 
-<img src="./assets/File类.png" alt="File类" style="zoom:80%;" />
+<img src="./java核心模块(下).assets/File类.png" alt="File类" style="zoom:80%;" />
 
 | 方法声明                                | 功能概述                                     |
 | --------------------------------------- | -------------------------------------------- |
@@ -281,9 +281,11 @@ public static void main(String[] args) throws IOException {
 
 #### 体系结构
 
-![02 IO流的体系图](./assets/02 IO流的体系图.png)
+![02 IO流的体系图](./java核心模块(下).assets/02 IO流的体系图.png)
 
-重点：<img src="./assets/IO流-1667051668141-11.png" alt="IO流" style="zoom:50%;" />
+重点：
+
+![io流](./java核心模块(下).assets/io流.png)
 
 #### FileWriter类（重点）
 
@@ -305,7 +307,9 @@ public static void main(String[] args) throws IOException {
 
 概念：java.io.FileReader类主要用于从文本文件读取文本数据内容
 
-常用的方法：<img src="./assets/FileReader类-1667052030057-15.png" alt="FileReader类" style="zoom:50%;" />
+常用的方法：
+
+![FileReader类](./java核心模块(下).assets/FileReader类.png)
 
 ```java
 public static void main(String[] args) {
@@ -357,7 +361,9 @@ public static void main(String[] args) {
 
 概念：java.io.FileInputStream类主要用于从输入流中以字节流的方式读取图像数据等
 
-常用的方法：<img src="./assets/FileInputStream类-1667052015789-13.png" alt="FileInputStream类" style="zoom:50%;" />
+常用的方法：
+
+![FileInputStream类](./java核心模块(下).assets/FileInputStream类.png)
 
 ```java
 public static void main(String[] args) {
@@ -423,7 +429,9 @@ public static void main(String[] args) {
 
 概念：java.io.BufferedInputStream类主要用于描述缓冲输入流
 
-常用的方法：<img src="./assets/BufferedInputStream类-1667052048788-17.png" alt="BufferedInputStream类" style="zoom:50%;" />
+常用的方法：
+
+![BufferedInputStream类](./java核心模块(下).assets/BufferedInputStream类.png)
 
 ```java
 long l1 = System.currentTimeMillis();
@@ -480,7 +488,9 @@ System.out.println("时间是：" + (l2-l1));
 
 概念：java.io.BufferedReader类主要用于从输入流中读取单个字符、字符数组以及字符串
 
-常用的方法：<img src="./assets/BufferedReader类-1667052065717-19.png" alt="BufferedReader类" style="zoom:50%;" />
+常用的方法：
+
+![BufferedReader类](./java核心模块(下).assets/BufferedReader类.png)
 
 ```java
 public static void main(String[] args) {
@@ -527,7 +537,9 @@ public static void main(String[] args) {
 
 概念：java.io.PrintWriter类主要用于将对象的格式化形式打印到文本输出流
 
-常用的方法：<img src="./assets/PrintWriter类-1667052089944-21.png" alt="PrintWriter类" style="zoom:50%;" />
+常用的方法：
+
+![PrintWriter类](./java核心模块(下).assets/PrintWriter类.png)
 
 ```java
 //不断地提示用户输入要发送的内容，若发送的内容是"bye"则聊天结束，否则将用户输入的内容写入到文件d:/a.txt中。

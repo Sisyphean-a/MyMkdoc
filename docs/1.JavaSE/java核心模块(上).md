@@ -342,7 +342,7 @@ System.out.println("参数平方根：" + Math.sqrt(4));    //2.0
 System.out.println("返回一个0~1随机数：" + Math.random());
 ```
 
-<img src="./assets/Math类.png" alt="Math类" style="zoom:50%;" />
+![Math类](./java核心模块(上).assets/Math类.png)
 
 #### BigDecimal类
 
@@ -394,7 +394,7 @@ BigInteger[] arr = b1.divideAndRemainder(b2);
 System.out.println("取商和取余：" + arr[0] + ";" + arr[1]); //4;12
 ```
 
-![java.math](./assets/java.math.png)
+![java.math](./java核心模块(上).assets/java.math.png)
 
 ## String类的概述和使用
 
@@ -693,7 +693,7 @@ String sst2 = st.substring(ia + 3);
 System.out.println(sst2);
 ```
 
-<img src="./assets/String类.png" alt="String类" style="zoom:50%;" />
+![String类](./java核心模块(上).assets/String类.png)
 
 ### 正则表达式（了解）
 
@@ -851,7 +851,7 @@ sb.reverse();    // ufixix iH
 
     答：StringBuilder > StringBuffer > String
 
-<img src="./assets/StringBuilder类.png" alt="StringBuilder类" style="zoom:50%;" />
+<img src="./java核心模块(上).assets/StringBuilder类.png" alt="StringBuilder类" style="zoom: 50%;" />
 
 ### Java8之前的日期相关类(熟悉)
 
@@ -980,7 +980,7 @@ System.out.println(sdf.format(time2));
     }
     ```
 
-<img src="./assets/日期相关类(旧版).png" alt="日期相关类(旧版)" style="zoom:50%;" />
+<img src="./java核心模块(上).assets/日期相关类(旧版).png" alt="日期相关类(旧版)" style="zoom:50%;" />
 
 ### Java8之后的日期相关类(熟悉)
 
@@ -1115,7 +1115,7 @@ String format = dtf.format(now);
 TemporalAccessor parse = dtf.parse(format);
 ```
 
-<img src="./assets/日期相关类(java.time).png" alt="日期相关类(java.time)" style="zoom:50%;" />
+<img src="./java核心模块(上).assets/日期相关类(java.time).png" alt="日期相关类(java.time)" style="zoom:50%;" />
 
 ## 集合类库
 
@@ -1155,7 +1155,7 @@ B-->E;D-->F
 | Object[] **toArray**()                      | 将集合转换为数组                                |
 | Iterator<E> **iterator**()                  | 获取当前集合的迭代器                            |
 
-<img src="./assets/Collection集合.png" alt="Collection集合" style="zoom:80%;" />
+<img src="./java核心模块(上).assets/Collection集合.png" alt="Collection集合" style="zoom:50%;" />
 
 ```java
 //------------------元素的填加------------------

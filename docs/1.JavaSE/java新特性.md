@@ -4,7 +4,7 @@
 
 #### 软件开发流程
 
-<img src="./java%E6%96%B0%E7%89%B9%E6%80%A7.assets/softwareDevelopmentProcess.png" alt="softwareDevelopmentProcess" style="zoom:50%;" />
+![software](./java新特性.assets/software.png)
 
 #### 常用的设计原则
 
@@ -64,9 +64,9 @@ public class Singleton {
 
 类图结构：
 
-<img src="./java%E6%96%B0%E7%89%B9%E6%80%A7.assets/chouxiang.png" alt="chouxiang" style="zoom: 80%;" />
+![chouxiang](./java新特性.assets/chouxiang.png)
 
-![图一](./java新特性.assets/图一-1667657176427-5.png)
+![sdfgsdfa](./java新特性.assets/sdfgsdfa.png)
 
 ```java
 public Sender produce(String str){
@@ -167,7 +167,7 @@ public class SmsSendFactory implements Provider{
 
 类图结构：
 
-<img src="./java新特性.assets/image-20221106161117158.png" alt="image-20221106161117158" style="zoom:50%;" />
+![sdfdfsf](./java新特性.assets/sdfdfsf.png)
 
 ```java
 public class Source implements Sourceable{
@@ -215,7 +215,7 @@ sourceable.method();	//a很好 \n b也不错
 
 类图结构：
 
-<img src="./java%E6%96%B0%E7%89%B9%E6%80%A7.assets/iamgesss.png" alt="iamgesss" style="zoom: 80%;" />
+![aaa](./java新特性.assets/aaa.png)
 
 ```java
 public class Proxy implements Sourceable{
@@ -245,7 +245,7 @@ public class Proxy implements Sourceable{
 
 类图结构：
 
-<img src="./java%E6%96%B0%E7%89%B9%E6%80%A7.assets/asdfs.png" alt="asdfs" style="zoom:80%;" />
+![asdfs](./java新特性.assets/asdfs.png)
 
 ```java
 public abstract class AbstractCalculator {
@@ -608,7 +608,7 @@ NIO不使用流的方式处理数据，而是以缓冲区Buffer和Channel管道�
 
 Selector是因为NIO可以使用异步的非阻塞才加入的东西
 
-<img src="./java%E6%96%B0%E7%89%B9%E6%80%A7.assets/NIO.drawio.png" alt="NIO.drawio" style="zoom:50%;" />
+![NIO](./java新特性.assets/NIO.png)
 
 -   Channel管道比作是铁路，不与数据打交道，只负责运输数据
 
